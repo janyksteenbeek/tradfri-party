@@ -84,7 +84,6 @@ class Party {
 
         // The device has color.
         if(device.isColor) {
-            const color = Math.floor(Math.random()*16777215).toString(16); // Generating random hex color.
             this.tradfri.setDeviceState(device.id, { state: 'on', transitionTime: 30, colorX: Math.floor(Math.random() * 65535), colorY: Math.floor(Math.random() * 65535)}).then((res) => {
                 this.log(device.name + ' has been turned on with a color.');
                 device.toggleEnabled();
