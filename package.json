@@ -1,0 +1,30 @@
+{
+  "name": "tradfri-party",
+  "version": "1.0.0",
+  "description": "Let your IKEA TRÅDFRI lights flicker like it's a lit party",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janyksteenbeek/tradfri-party.git"
+  },
+  "keywords": [
+    "ikea",
+    "tradfri",
+    "lights",
+    "party"
+  ],
+  "author": "Janyk Steenbeek <info@janyksteenbeek.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janyksteenbeek/tradfri-party/issues"
+  },
+  "homepage": "https://github.com/janyksteenbeek/tradfri-party#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "node-tradfri": "^0.2.3"
+  }
+}
