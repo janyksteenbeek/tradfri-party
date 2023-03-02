@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,8 @@
   "homepage": "https://github.com/janyksteenbeek/tradfri-party#readme",
   "dependencies": {
     "dotenv": "^6.0.0",
-    "node-tradfri": "^0.2.3"
-  }
+    "node-tradfri": "^0.2.3",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
