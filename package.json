@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/janyksteenbeek/tradfri-party#readme",
   "dependencies": {
-    "dotenv": "^6.0.0",
+    "dotenv": "^6.2.0",
     "node-tradfri": "^0.2.3"
   }
 }
