@@ -28,7 +28,7 @@
   "dependencies": {
     "dotenv": "^6.0.0",
     "node-tradfri": "^0.2.3",
-    "@snyk/protect": "latest"
+    "@snyk/protect": "1.1187.0"
   },
   "snyk": true
 }
